@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react';
+import React from 'react';
 import logo from './logo.svg';
 import './App.css';
 
@@ -20,7 +20,6 @@ function App() {
       </header>
     </div>
   );
-
 
 }
 
