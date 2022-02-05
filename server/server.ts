@@ -9,7 +9,7 @@ app.use(express.json());
 // Serve the React static files after build
 app.use(express.static("../client/build"));
 
-app.listen(PORT, () => {});
+app.listen(PORT, () => {console.log(`Server listening on ${PORT}`);});
 
 app.get("/api/hello", (req, res) => {
   res.send({ message: "Hello" });
